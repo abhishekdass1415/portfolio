@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek Dass | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    .fade-in {
+      opacity: 1 !important;
+      transform: translateY(0);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    .opacity-0 {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+  </style>
+</head>
+<body>
+  <main class="p-6">
+    <!-- Hero Section -->
+    <section class="fade-section" style="max-width: 1000px; margin: auto; padding: 80px 0;">
+      <h1 style="font-size: 3rem; margin-bottom: 0.5em;">Abhishek Dass</h1>
+      <p style="font-size: 1.2rem; color: #cbd5e1; margin-bottom: 1.5em;">
+         Web Development Enthusiast | Formula Student Engineer | CSBS 2026
+      </p>
+      <div style="display: flex; gap: 1rem;">
+        <a href="https://github.com/abhishekdass1415" target="_blank" class="button">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" width="20" />
+          GitHub
+        </a>
+        <a href="https://linkedin.com/in/abhishek-dass-220387257" target="_blank" class="button">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="20" />
+          LinkedIn
+        </a>
+      </div>
+    </section>
+
+    <!-- Focus Card -->
+    <section class="fade-section" style="max-width: 1000px; margin: auto; margin-bottom: 60px;">
+      <div class="card">
+        <h2 style="margin-bottom: 1rem;">Current Focus</h2>
+        <ul style="color: #94a3b8;">
+          <li>QA Automation and Test Design</li>
+          <li>Formula Bharat vehicle development</li>
+          <li>Sensor & Telemetry systems</li>
+          <li>CFD and simulation-based optimization</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="fade-section" style="max-width: 1000px; margin: auto;">
+      <h2 style="font-size: 1.8rem; margin-bottom: 1rem;">Featured Projects</h2>
+      <div class="grid-container">
+        <div class="card">
+          <h3>Formula Bharat EV – DAQ & Aero</h3>
+          <p>Led aero package and telemetry for EV prototype. Reduced drag by 96.9% and managed 10+ real-time sensors.</p>
+        </div>
+        <div class="card">
+          <h3>Lane Detection System</h3>
+          <p>Developed MATLAB-based lane detection system with >98% accuracy and embedded migration to Raspberry Pi.</p>
+        </div>
+        <div class="card">
+          <h3>Weather Forecast App</h3>
+          <p>MERN stack app providing real-time weather updates with user-friendly rural interface.</p>
+        </div>
+        <div class="card">
+          <h3>Elevate – Habit Tracker</h3>
+          <p>React frontend with MERN backend, integrated real-time reminders and agile development flow.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="text-align: center; margin-top: 80px; color: #64748b; font-size: 0.9rem;">
+      © 2025 Abhishek Dass. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
